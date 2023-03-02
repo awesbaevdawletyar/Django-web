@@ -29,7 +29,7 @@ SECRET_KEY = env.str('SECRET_KEY')
 DEBUG = env.bool('DEBUG')
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://dauka.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://dauka.up.railway.app']
 
 # Application definition
 
