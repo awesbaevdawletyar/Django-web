@@ -1,1 +1,1 @@
-web:gunicorn django_lesson_web.wsgi
+web: gunicorn django_lesson_web.wsgi
