@@ -34,6 +34,8 @@ CSRF_TRUSTED_ORIGINS = ['https://dauka.up.railway.app']
 # Application definition
 
 INSTALLED_APPS = [
+    'telebot.apps.TelebotConfig',
+    'price.apps.PriceConfig',
     'cms.apps.CmsConfig',
     'app.apps.AppConfig',
     'django.contrib.admin',
